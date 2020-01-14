@@ -1,0 +1,84 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Cherry Cream Soda', serif;
+    text-shadow: 1px 1px 2px #000000;
+  }
+  .PageHeader {
+    background-image: url('http://www.republiquedesmangues.fr/mangue_small.png');
+    background-size: contain;
+    background-position: top;
+    position: relative;
+    background-attachment: fixed;
+  }
+  .overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+  }
+  .description h1 {
+    color: #057ada;
+  }
+  .description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+  .description button {
+    border:1px solid #4657b4;
+    background:#4657b4;
+    border-radius: 0;
+    color:#fff;
+  }
+  .description button:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Cherry Cream Soda', cursive;
+    font-size: 1.15em;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+.ThisButton {
+  float: left;
+  background-color: #6f4e37; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+}
+.Take {
+  font-size: 4em;
+  color: #af3a3a;
+  text-shadow: 4px 4px 2px #000000;
+}
